@@ -1,2 +1,262 @@
-@import"reset";
-@import"main";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body {
+      font-family: "Helvetica Neue", sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+
+.wrap{
+  max-width: 1580px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.wrap {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+/* navbar */
+.header .navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  font-family: "Noto Sans TC", sans-serif;
+  padding: 24px 80px;
+}
+.navbar li {
+  height: 42px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 150%;
+  color: #000;
+}
+.navbar a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+}
+/* herosection */
+.hero {
+  display: flex;
+}
+.heroleft,
+.heroright {
+  flex: 1;
+  min-width: 200px;
+}
+.heroleft img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.heroright {
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/Hero%20Section2.png?raw=true);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.heroright h1 {
+  width: 333px;
+  height: 180px;
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 900;
+  font-size: 120px;
+  line-height: 150%;
+  color: #0027d5;
+  margin-left: 80px;
+  margin-bottom: 12px;
+}
+.heroright p {
+  width: 317px;
+  height: 42px;
+  font-family: "Noto Serif TC", serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 150%;
+  color: #0027d5;
+  margin-left: 80px;
+  margin-right: 16px;
+}
+.card-content {
+      padding: 32px;
+      width: 50%;
+    }
+
+.text{
+  align-items: center;
+}
+.text-img{
+  max-width: 50%;
+  object-fit: cover;}
+
+
+h3 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.content{ 
+  display: flex;
+  max-width: 1580px;
+  padding:20px;
+  justify-content: space-between;
+  margin: 0 auto;}
+
+
+.list {
+  max-width: 1580px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  
+}
+
+.box {
+  width: 416px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin: 20px;
+  padding: 10px;
+  line-height: 1.5;
+}
+
+.box p {
+  font-size: 18px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.click {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 96px;
+  height: 40px;
+  padding: 3px;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: black;
+}
+
+.footer {
+  margin-top: auto;
+  background-color: #ffffff;
+  border-top: 1px solid #ccc;
+  padding: 24px 40px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* RWD */
+  margin-bottom: 16px;
+}
+
+.mail {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+.mail:hover {
+  text-decoration: underline;
+}
+
+.icon {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+.icon li img {
+  width: 28px;
+  height: 28px;
+  transition: transform 0.3s ease;
+}
+
+.icon li img:hover {
+  transform: scale(1.8);
+}
+
+.copyright {
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+}
+
