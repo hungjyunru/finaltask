@@ -139,7 +139,7 @@ img {
   line-height: 150%;
   color: #0027d5;
   padding-left: 80px;
-  margin-bottom: 12px;
+  margin-bottom: 12px;}
   
 
 .heroright p {
@@ -160,7 +160,6 @@ img {
     word-break: break-word;
 }
   }
-
   .heroright p {
     font-size: 20px;
   }
