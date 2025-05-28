@@ -141,8 +141,7 @@ img {
   color: #0027d5;
   padding-left: 80px;
   margin-bottom: 12px;
-  word-break: break-word;
-}
+  
 
 .heroright p {
   max-width: 317px;
@@ -157,6 +156,8 @@ img {
 @media (max-width: 768px) {
   .heroright h1 {
     font-size: 60px;
+    word-break: break-word;
+}
   }
 
   .heroright p {
