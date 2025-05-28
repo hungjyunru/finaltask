@@ -119,36 +119,36 @@ img {
 .heroright {
   background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/Hero%20Section2.png?raw=true);
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   max-width: 960px;
-  overflow-x: hidden;; /* 避免水平滾動 */
-  margin: 0 auto; /* 讓區塊置中 */
-  box-sizing: border-box; /* 確保 padding 不會超出容器寬度 */
+  margin: 0 auto;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
+
 .heroright h1 {
   max-width: 333px;
-  max-height: 180px;
   font-family: "Noto Sans TC", sans-serif;
   font-weight: 900;
   font-size: 120px;
   line-height: 150%;
   color: #0027d5;
-  margin-left: 80px;
+  padding-left: 80px;
   margin-bottom: 12px;
-
 }
+
 .heroright p {
   max-width: 317px;
-  max-height: 42px;
   font-family: "Noto Serif TC", serif;
   font-weight: 700;
   font-size: 28px;
   line-height: 150%;
   color: #0027d5;
-  margin-left: 80px;
-  margin-right: 16px;
+  padding-left: 80px;
+  padding-right: 16px;
 }
+
 .card{
   width: 100%;
   display: flex;
