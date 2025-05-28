@@ -111,7 +111,7 @@ img {
 .heroright {
   flex: 1;
   min-width: 200px;
-  max-width: 960px;
+  max-width: 1920px;
 }
 .heroleft img {
   width: 100%;
@@ -124,7 +124,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 960px;
+  max-width: 1920px;
   margin: 0 auto;
   box-sizing: border-box;
   
