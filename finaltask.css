@@ -56,6 +56,7 @@ body {
       margin: 0;
       padding: 0;
       background-color: #f9f9f9;
+      max-width: 1920px;
     }
 
 .wrap{
@@ -101,11 +102,13 @@ img {
 /* herosection */
 .hero {
   display: flex;
+  max-width: 960px;
 }
 .heroleft,
 .heroright {
   flex: 1;
   min-width: 200px;
+  max-width: 960px;
 }
 .heroleft img {
   width: 100%;
@@ -118,10 +121,11 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  max-width: 960px;
 }
 .heroright h1 {
-  width: 333px;
-  height: 180px;
+  max-width: 333px;
+  max-height: 180px;
   font-family: "Noto Sans TC", sans-serif;
   font-weight: 900;
   font-size: 120px;
@@ -129,10 +133,11 @@ img {
   color: #0027d5;
   margin-left: 80px;
   margin-bottom: 12px;
+
 }
 .heroright p {
-  width: 317px;
-  height: 42px;
+  max-width: 317px;
+  max-height: 42px;
   font-family: "Noto Serif TC", serif;
   font-weight: 700;
   font-size: 28px;
