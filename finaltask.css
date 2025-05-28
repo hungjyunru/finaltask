@@ -122,7 +122,7 @@ img {
   flex-direction: row;
   justify-content: center;
   max-width: 960px;
-  flex-wrap: wrap; /* 避免水平滾動 */
+  overflow-x: hidden;; /* 避免水平滾動 */
   margin: 0 auto; /* 讓區塊置中 */
   box-sizing: border-box; /* 確保 padding 不會超出容器寬度 */
 }
