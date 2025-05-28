@@ -141,12 +141,7 @@ img {
   color: #0027d5;
   padding-left: 80px;
   margin-bottom: 12px;
-}
-@media (max-width: 768px) {
-  .heroright h1 {
-    font-size: 60px;
-    padding-left: 16px;
-  }
+  word-break: break-word;
 }
 
 .heroright p {
@@ -159,7 +154,15 @@ img {
   padding-left: 80px;
   padding-right: 16px;
 }
+@media (max-width: 768px) {
+  .heroright h1 {
+    font-size: 60px;
+  }
 
+  .heroright p {
+    font-size: 20px;
+  }
+}
 .card{
   width: 100%;
   display: flex;
