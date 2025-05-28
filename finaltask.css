@@ -102,8 +102,11 @@ img {
 /* herosection */
 .hero {
   display: flex;
+  flex-wrap: wrap;
   max-width: 960px;
+  overflow-x: hidden;
 }
+
 .heroleft,
 .heroright {
   flex: 1;
