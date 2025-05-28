@@ -119,7 +119,7 @@ img {
 .heroright {
   background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/Hero%20Section2.png?raw=true);
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   max-width: 960px;
   flex-wrap: wrap; /* 避免水平滾動 */
